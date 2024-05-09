@@ -1,0 +1,42 @@
+.main{
+    background-color: gainsboro;
+    margin-top: 10px;
+    /* max-width: 400px; */
+    width:50%;
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap; */
+}
+input{
+    margin: 10px;
+}
+#prod_form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:50%
+}
+*{
+    overflow-x: hidden;
+    margin:0;
+    padding: 0;
+    /* background-color: blue; */
+    
+}
+
+.container {
+    border: 1px solid black;
+    margin-top: 30px;
+    /* Add the background image */
+    background-image: url('login.png');
+    /* Set background image properties */
+    background-size: cover; /* Adjusts the size of the image to cover the entire container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    /* Optionally, you can adjust background position */
+    background-position: center; /* Centers the background image */
+}
+.container form {
+    padding: 20px; /* Add some padding to the form */
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to make the form content more readable */
+}
+
